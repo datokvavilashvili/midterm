@@ -210,3 +210,59 @@
   font-weight: 700;
   cursor: pointer;
 }
+
+/* Header Styles End */
+
+/* Filter & Categories Styles Start */
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.categories {
+  display: flex;
+  gap: 50px;
+}
+
+.cat-btn {
+  background: transparent;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #222222;
+  cursor: pointer;
+}
+
+.cat-btn.active {
+  background-color: #f2f2f2;
+  color: #222222;
+}
+
+.filter-btn {
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  padding: 16px 27px 16px 24px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e1e24;
+  cursor: pointer;
+}
+
+.filter-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Filter & Categories Styles End */
