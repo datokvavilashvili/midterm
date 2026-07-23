@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* sidebar Styles start */
+
 .sidebar {
   width: 240px;
   background-color: #1e1e24;
@@ -105,4 +108,105 @@
   text-decoration: none;
   display: inline-block;
   margin-top: 10px;
+}
+
+/* sidebar Styles end */
+
+/* Header Styles Start */
+
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px 25px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.search-bar {
+  background-color: #f0f0f5;
+  padding: 10px 18px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 446px;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.pro-tag {
+  color: #ff2288;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.header-envelope,
+.header-bell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: 2px;
+  right: -1px;
+  width: 7px;
+  height: 7px;
+  background-color: #ff2a7a;
+  border-radius: 50%;
+}
+
+.user-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ff2288;
+  color: #fff;
+  border: none;
+  padding: 17px 40px 20px 36px;
+  border-radius: 12px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
 }
