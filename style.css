@@ -468,3 +468,74 @@
 }
 
 /* Top Designers Styles End */
+
+/* Footer Styles Start */
+
+.main-footer {
+  font-family: "Nunito Sans", sans-serif;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  border-top: 1px solid #f0f0f5;
+  margin-top: 69px;
+}
+
+.footer-links-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 16px;
+}
+
+.footer-col h4.sub-heading {
+  margin-top: 24px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  font-size: 13px;
+  font-weight: 400;
+  color: #555560;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #777780;
+}
+
+.copyright strong {
+  color: #222222;
+}
+
+/* Footer Styles End */
