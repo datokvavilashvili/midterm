@@ -608,3 +608,161 @@
 }
 
 /* Orders Table Styles End */
+
+/*   RESPONSIVE STYLES (MEDIA QUERIES) */
+
+@media (max-width: 1366px) {
+  .cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .designers-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .designer-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .search-bar {
+    width: 320px;
+  }
+
+  .categories {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .sidebar {
+    width: 200px;
+    padding: 20px 12px;
+  }
+
+  .main-content {
+    padding: 20px 16px;
+  }
+
+  .top-header {
+    gap: 15px;
+  }
+
+  .search-bar {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .designers-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+
+  .designer-avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .filter-section {
+    gap: 15px;
+  }
+
+  .categories {
+    overflow-x: auto;
+    padding-bottom: 5px;
+    gap: 10px;
+  }
+
+  .orders-section {
+    overflow-x: auto;
+  }
+
+  .orders-table {
+    min-width: 700px;
+  }
+
+  .footer-links-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .following-section {
+    display: none;
+  }
+
+  .main-content {
+    padding: 20px 15px;
+  }
+
+  .top-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .header-right {
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .filter-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .categories {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 8px;
+  }
+
+  .filter-btn {
+    justify-content: center;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .designers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .designer-avatar {
+    width: 90px;
+    height: 90px;
+  }
+
+  .footer-links-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
