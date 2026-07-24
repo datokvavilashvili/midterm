@@ -198,7 +198,22 @@
   object-fit: cover;
   cursor: pointer;
 }
+.header-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.header-user a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-icon-small {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
 .btn-primary {
   background-color: #ff2288;
   color: #fff;
@@ -539,3 +554,57 @@
 }
 
 /* Footer Styles End */
+
+/* Orders Table Styles Start */
+
+.orders-section {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.orders-table th {
+  padding: 16px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.orders-table td {
+  padding: 18px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #afafaf;
+  border-bottom: 1px solid #f2f2f5;
+}
+
+.orders-table tr.row-highlight td {
+  background-color: #f2f2f2;
+  border-bottom: none;
+  color: #222222;
+  font-weight: 600;
+}
+
+.orders-table tr.row-highlight td:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.orders-table tr.row-highlight td:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.orders-table tr.row-pink td {
+  color: #ff2288;
+  font-weight: 600;
+}
+
+/* Orders Table Styles End */
