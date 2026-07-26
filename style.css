@@ -334,7 +334,7 @@
   flex-direction: column;
   gap: 8px;
   opacity: 0;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.3s ease;
 }
 
 .action-btn {
@@ -780,3 +780,7 @@
     text-align: center;
   }
 }
+
+/* re-run github file *\ 
+
+
